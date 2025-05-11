@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page Simples</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* Proporção 16:9 */
+      padding-top: 25px;
+      height: 0;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container text-center py-5">
+    <h1 class="mb-4">Transforme sua vida agora</h1>
+
+    <div class="video-container mb-4">
+      <iframe src="https://vimeo.com/1078045641" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <p class="mb-4 fs-5">
+      Aprenda com quem já passou por isso e salve quem você ama do alcoolismo.
+    </p>
+
+    <a href="#inscricao" class="btn btn-primary btn-lg">Entre agora para a turma</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
