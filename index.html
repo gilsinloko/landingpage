@@ -327,7 +327,7 @@
   const contadorEl = document.getElementById('contador-vagas');
 
   function atualizaVagas() {
-    if (vagas > 1) {
+    if (vagas > 2) {
       vagas--;
       contadorEl.textContent = vagas;
     } else {
@@ -336,7 +336,7 @@
   }
 
   // Atualiza a cada  segundos (6000 ms)
-  const intervalo = setInterval(atualizaVagas, 6000);
+  const intervalo = setInterval(atualizaVagas, 8000);
 </script>
 <!-- Bootstrap JS (com Popper) -->
 
